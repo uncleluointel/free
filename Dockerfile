@@ -7,7 +7,7 @@ RUN chmod 755 proot
 RUN mv proot /bin
 RUN tar -xvf v1.2.0.tar.gz
 RUN mkdir  $HOME/.vnc
-RUN echo 'luo' | vncpasswd -f > $HOME/.vnc/passwd
+RUN echo 'lee' | vncpasswd -f > $HOME/.vnc/passwd
 RUN chmod 600 $HOME/.vnc/passwd
 RUN echo 'whoami ' >>/luo.sh
 RUN echo 'cd ' >>/luo.sh
